@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Prattski
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA that can
+ * be found on the web at the following URL:
+ * http://store.prattski.com/LICENSE.txt
+ *
+ * @category    Prattski
+ * @package     Prattski_Developer
+ * @copyright   Copyright (c) 2010-2011 Prattski (http://prattski.com/)
+ * @license     http://store.prattski.com/LICENSE.txt
+ */
+-->
+<config>
+    <sections>
+        <dev>
+            <groups>
+                <environment translate="label" module="prattski_developer">
+                    <label>Environment</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>0</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <ipaddress translate="label comment" module="prattski_developer">
+                            <label>IP Address</label>
+                            <frontend_type>text</frontend_type>
+                            <frontend_model>prattski_developer/system_config_form_field_environment_ipaddress</frontend_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[This is the Internet-facing IP address of the Magento store.]]></comment>
+                        </ipaddress>
+                    </fields>
+                </environment>
+            </groups>
+        </dev>
+    </sections>
+</config>

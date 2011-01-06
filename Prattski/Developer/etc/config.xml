@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Prattski
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA that can
+ * be found on the web at the following URL:
+ * http://store.prattski.com/LICENSE.txt
+ *
+ * @category    Prattski
+ * @package     Prattski_Developer
+ * @copyright   Copyright (c) 2010-2011 Prattski (http://prattski.com/)
+ * @license     http://store.prattski.com/LICENSE.txt
+ */
+-->
+<config>
+    <modules>
+        <Prattski_Developer>
+             <version>0.1.0</version>
+        </Prattski_Developer>
+    </modules>
+    
+    <global>
+        <blocks>
+            <prattski_developer>
+                <class>Prattski_Developer_Block</class>
+            </prattski_developer>
+        </blocks>
+        <helpers>
+            <prattski_developer>
+                <class>Prattski_Developer_Helper</class>
+            </prattski_developer>
+        </helpers>
+        <models>
+            <prattski_developer>
+                <class>Prattski_Developer_Model</class>
+            </prattski_developer>
+        </models>
+    </global>
+</config>
